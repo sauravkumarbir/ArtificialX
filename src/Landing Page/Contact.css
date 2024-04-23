@@ -1,0 +1,56 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: -50px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #ffff;
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .contact-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    position: relative; /* Added position relative */
+  }
+  
+  .arrow-symbol {
+    font-size: 2rem;
+    
+    position: absolute; /* Positioning the arrow symbol */
+    right: 10px; /* Adjust this value to position the arrow */
+    top: 45%; /* Align to the middle vertically */
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  @media (max-width:480px){
+    .container{
+        margin-top: 30px;
+    }
+  }
+  @media (max-width:768px){
+    .container{
+        margin-top: 50px;
+    }
+  }

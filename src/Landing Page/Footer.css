@@ -1,0 +1,19 @@
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-logo h1 {
+    font-size: 40px;
+}
+
+.footer {
+    margin-top: 150px;
+}
